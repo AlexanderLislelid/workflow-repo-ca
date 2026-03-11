@@ -42,8 +42,42 @@ npm install
 - Run Eslint `npm run lint`
 - Run Autofixer `npm run lint:fix`
 
-### Run tests
+</br>
 
+## Testing
+
+### Unit tests (Vitest)
+Tests cover the following functions:
+
+- **isActivePath**
+  - Returns true when current path matches href exactly
+  - Returns true for root path "/" when path is "/" or "/index.html"
+  - Returns true when current path includes the href
+  - Returns false when paths don't match
+
+- **getUserName**
+  - Returns the name from the user object stored in localStorage
+  - Returns null when no user exists in storage
+
+Run unit tests with:
+```bash
+npm run test
+```
+
+### End-to-end tests (Playwright)
+
+#### The Playwright tests Verify
+-	User can log in with valid credentials from environment variables
+-	User sees an error message with invalid credentials
+-	Navigation to the home page
+- Venue list loads
+-	Clicking the first venue opens the venue details page
+-	The page heading contains “Venue details”
+
+Run end-to-end tests with:
+```bash
+npx playwright test
+```
 ## Environment Variables
 
 Create a `.env` file in the root directory:
