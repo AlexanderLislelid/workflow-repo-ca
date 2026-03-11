@@ -11,7 +11,7 @@ The repository includes configuration for:
 
 The goal of this assignment was to improve code quality and test coverage in an existing project repository.
 
-````markdown
+
 ## Installation
 
 1. Clone the repository
@@ -19,7 +19,6 @@ The goal of this assignment was to improve code quality and test coverage in an 
 ```bash
 git clone https://github.com/AlexanderLislelid/workflow-repo-ca.git
 ```
-````
 
 2. Navigate into the project folder
 
