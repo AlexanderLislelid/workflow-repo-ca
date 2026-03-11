@@ -64,6 +64,8 @@ Run unit tests with:
 npm run test
 ```
 
+</br>
+
 ### End-to-end tests (Playwright)
 
 #### The Playwright tests Verify
@@ -78,6 +80,9 @@ Run end-to-end tests with:
 ```bash
 npx playwright test
 ```
+
+</br>
+
 ## Environment Variables
 
 Create a `.env` file in the root directory:
