@@ -1,16 +1,17 @@
-## Workflow CA
+# Workflow CA
 
 This project demonstrates a professional development workflow using linting, formatting, automated checks and testing tools.
-
-The repository includes configuration for:
-• ESLint
-• Prettier
-• Husky pre-commit hooks
-• Vitest unit testing
-• Playwright end-to-end testing
-
 The goal of this assignment was to improve code quality and test coverage in an existing project repository.
 
+The repository includes configuration for:
+
+- ESLint
+- Prettier
+- Husky pre-commit hooks
+- Vitest unit testing
+- Playwright end-to-end testing
+
+</br>
 
 ## Installation
 
@@ -32,12 +33,22 @@ cd workflow-repo-ca
 npm install
 ```
 
+</br>
+
 ## Available Scripts
 
-### Start live server
+- Start live server: `npm start`
+- Run Tailwind watcher `npm run dev` Builds the CSS file and watches for changes.
+- Run Eslint `npm run lint`
+- Run Autofixer `npm run lint:fix`
 
-Starts the local development server.
+### Run tests
+
+## Environment Variables
+
+Create a `.env` file in the root directory:
 
 ```bash
-npm start
+TEST_USER_EMAIL=your@email
+TEST_USER_PASSWORD=your password
 ```
