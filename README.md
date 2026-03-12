@@ -47,6 +47,7 @@ npm install
 ## Testing
 
 ### Unit tests (Vitest)
+
 Tests cover the following functions:
 
 - **isActivePath**
@@ -60,6 +61,7 @@ Tests cover the following functions:
   - Returns null when no user exists in storage
 
 Run unit tests with:
+
 ```bash
 npm run test
 ```
@@ -69,16 +71,18 @@ npm run test
 ### End-to-end tests (Playwright)
 
 #### The Playwright tests Verify
--	User can log in with valid credentials from environment variables
--	User sees an error message with invalid credentials
--	Navigation to the home page
+
+- User can log in with valid credentials from environment variables
+- User sees an error message with invalid credentials
+- Navigation to the home page
 - Venue list loads
--	Clicking the first venue opens the venue details page
--	The page heading contains “Venue details”
+- Clicking the first venue opens the venue details page
+- The page heading contains “Venue details”
 
 Run end-to-end tests with:
+
 ```bash
-npx playwright test
+npm run e2e
 ```
 
 </br>
